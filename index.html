@@ -16,24 +16,25 @@
         <p>Join us for your exprience</p>
         <p class="top-text">Glacier Hiking</p>
     </div>
-    <div class="main-content">
+    <div id="main-content" class="main-content">
         <h2>Become a Hiking Master</h2>
         <p class="subtitle">Register Today</p>
         <p class='inform'>Visit Solheimajokull Glacier any time of the year to explore the sheer power of ice. Don’t miss your chance to hike on a crawling glacier surrounded by active volcanoes!
         </p>
         <!-- form -->
         
-        <form class="subscribe" action="#" method="POST">
+        <form id="emailCollector" class="subscribe" action="#" method="POST">
             <label for="fname"></label>
-            <input aria-label="first name" id="fname" type="text" placeholder="first name" required/>
+            <input name ='firstname' aria-label="first name" id="fname" type="text" placeholder="first name" required/>
             <br>
             <label for="email"></label>
-            <input  aria-label="email"id="email" type="email" placeholder="email" required/>
+            <input name='email'  aria-label="email"id="email" type="email" placeholder="email" required/>
             <br>
             <button class="btn btn-main" type="submit">submit</button>
         </form>
 
         <p class="fine-print">We'll never share your information <br>without your permission</p>
     </div>
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
